@@ -152,7 +152,7 @@ a {
 /* banner.css */
 
 .banner {
-	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,20,.2)), url(seahorse5.jpg);
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,20,.2)), url(seahorse5.JPG);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
