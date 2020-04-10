@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	margin: 0px;
+	background-color: #222127; 
+}
+
+h1, h2, h3 {
+	font-family: 'Lora', serif;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif
+}
+
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 8px;
+}
+.list-inline i {
+	font-size: 60px;
+	color: #d55252;
+}
+.list-inline i:hover {
+	font-size: 60px;
+	color: #222127;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+	.container{
+		width: 700px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 300px) {
+	.container{
+		width: 200px;
+	}
+}
